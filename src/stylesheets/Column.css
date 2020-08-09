@@ -1,0 +1,33 @@
+.column {
+  list-style-type: none;
+  padding-left: 0;
+  background: #f7f7f7;
+  padding: 8px;
+  border-radius: 2px;
+  min-height: 50px;
+}
+
+.name-header {
+  text-align: center;
+  padding: 6px 6px;
+  margin: 0;
+  font-family: verdana;
+  color: #040404;
+  font-weight: 700;
+}
+
+.name-0 {
+  background-color: red;
+}
+
+.name-1 {
+  background-color: orange;
+}
+
+.name-2 {
+  background-color: #fff25e;
+}
+
+.name-3 {
+  background-color: green;
+}

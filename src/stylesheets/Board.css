@@ -1,0 +1,33 @@
+.columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding: 0;
+  list-style-type: none;
+}
+
+.column-wrapper {
+  background: #f7f7f7;
+  margin-bottom: 10px;
+  flex-basis: 24%;
+  min-width: 170px;
+  border-radius: 4px;
+}
+
+.wrapper-0 {
+  border: 1px solid red;
+}
+
+.wrapper-1 {
+  border: 1px solid orange;
+}
+
+.wrapper-2 {
+  border: 1px solid #fff25e;
+}
+
+.wrapper-3 {
+  border: 1px solid green;
+}

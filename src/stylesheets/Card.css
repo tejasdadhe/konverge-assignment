@@ -1,0 +1,48 @@
+.task-card {
+  background: #ffffff;
+  margin-bottom: 8px;
+  padding: 8px;
+  border-radius: 5px;
+  word-break: break-all;
+  word-wrap: break-word;
+  cursor: pointer;
+  border: 1px solid lightgray;
+  font-family: arial;
+}
+
+.wrapper-3 .task-card {
+  border: 1px solid green;
+  background-color: #efffef;
+}
+
+.wrapper-3 .task-card:hover {
+  border: 1px solid green;
+  background-color: #efffef;
+  cursor:grab;
+}
+
+.task-card:hover {
+  background-color: #efefef;
+  border :1px solid gray;
+  cursor:grab;
+}
+
+span.task-title {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: underline;
+  line-height: 30px;
+}
+
+span.task-description {
+  color: #444;
+  font-size: 15px;
+}
+
+span.task-due-date {
+  font-size: 15px;
+  line-height: 30px;
+  color: #222;
+  font-weight: bold;
+}
